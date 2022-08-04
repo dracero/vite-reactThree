@@ -1,0 +1,133 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v3.2.43",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cylinder",
+      "rotation": [
+        0.653269350528717,
+        0.5568962693214417,
+        0.2708607017993927,
+        0.43559184670448303
+      ],
+      "scale": [
+        1.0157138109207153,
+        1.767856478691101,
+        1.0384739637374878
+      ],
+      "translation": [
+        1.2639602422714233,
+        0.40013694763183594,
+        -2.0685136318206787
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material.001",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8000000715255737,
+          0.05140449479222298,
+          0.3941084146499634,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cylinder",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 192,
+      "max": [
+        0.48543643951416016,
+        0.592705249786377,
+        0.5198583602905273
+      ],
+      "min": [
+        -0.48543643951416016,
+        -0.592705249786377,
+        -0.5198583602905273
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 192,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 192,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 372,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 2304,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2304,
+      "byteOffset": 2304
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1536,
+      "byteOffset": 4608
+    },
+    {
+      "buffer": 0,
+      "byteLength": 744,
+      "byteOffset": 6144
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "first_data.bin",
+      "byteLength": 6888
+    }
+  ]
+}
